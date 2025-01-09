@@ -45,6 +45,7 @@ This allows one to create TCA9534 objects.
 
 The library is expected to work for the PCA9554 / PCA9534 too. To be verified (feedback welcome).
 
+
 ### Related
 
 16 bit port expanders
@@ -159,7 +160,7 @@ Reading it will reset the flag to **TCA9554_OK**.
 - update documentation
 - buy TCA9554 / TCA9534 / PCA9554 / PCA9534
 - test all functionality
-- keep in sync with TCA9555
+- keep TCA9554/TCA9555 in sync
 
 #### Should
 

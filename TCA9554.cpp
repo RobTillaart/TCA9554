@@ -38,7 +38,6 @@ bool TCA9554::begin(bool mode, uint8_t mask)
   } else {
     pinMode8(0xFF);
   }
-
   return true;
 }
 
@@ -100,9 +99,8 @@ bool TCA9554::write1(uint8_t pin, uint8_t value)
   else       val &= ~mask;
   if (val != prevVal)
   {
-    writeRegister(TCA9554_CONFIGURATION_PORT, val);
+    writeRegister(TCA9554_OUTPUT_PORT_REGISTER, val);
   }
-  writeRegister(TCA9554_OUTPUT_PORT_REGISTER, val);
   _error = TCA9554_OK;
   return true;
 }

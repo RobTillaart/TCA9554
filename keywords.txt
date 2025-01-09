@@ -20,8 +20,8 @@ getPolarity	KEYWORD2
 pinMode8	KEYWORD2
 write8	KEYWORD2
 read8	KEYWORD2
-setPolarity	KEYWORD2
-getPolarity	KEYWORD2
+setPolarity8	KEYWORD2
+getPolarity8	KEYWORD2
 
 lastError	KEYWORD2
 getType	KEYWORD2
