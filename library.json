@@ -1,6 +1,6 @@
 {
   "name": "TCA9554",
-  "keywords": "TCA9554,I2C,8 IO, TCA9534",
+  "keywords": "TCA9554,I2C,8 IO, TCA9534, PCA9554, PCA9534",
   "description": "Arduino library for I2C TCA9554 8 channel port expander.",
   "authors":
   [
