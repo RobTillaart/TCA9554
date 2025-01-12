@@ -265,13 +265,13 @@ TCA9534::TCA9534(uint8_t address, TwoWire *wire)
   _type = 34;
 }
 
-PCA9554::TCA9554(uint8_t address, TwoWire *wire)
+PCA9554::PCA9554(uint8_t address, TwoWire *wire)
         :TCA9554(address, wire)
 {
   _type = 54;
 }
 
-PCA9534::TCA9534(uint8_t address, TwoWire *wire)
+PCA9534::PCA9534(uint8_t address, TwoWire *wire)
         :TCA9554(address, wire)
 {
   _type = 34;
