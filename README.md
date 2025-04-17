@@ -64,6 +64,7 @@ Feedback of working types is welcome.
 
 - https://github.com/RobTillaart/MCP23017_RT
 - https://github.com/RobTillaart/MCP23S17  (SPI)
+- https://github.com/RobTillaart/PCA9671
 - https://github.com/RobTillaart/PCF8575
 - https://github.com/RobTillaart/TCA9555
 
@@ -171,6 +172,17 @@ Reading it will reset the flag to **TCA9554_OK**.
 |  TCA9554_VALUE_ERROR   |  0x83   |
 |  TCA9554_PORT_ERROR    |  0x84   |
 |  TCA9554_INVALID_READ  |  -100   |
+
+
+### Derived classes
+
+idem as above, to be verified.
+
+- **TCA9534(uint8_t address, TwoWire \*wire = &Wire)**
+- **PCA9554(uint8_t address, TwoWire \*wire = &Wire)**
+- **PCA9534(uint8_t address, TwoWire \*wire = &Wire)**
+- **CAT9554(uint8_t address, TwoWire \*wire = &Wire)**
+- **CAT9534(uint8_t address, TwoWire \*wire = &Wire)**
 
 
 ## Future
