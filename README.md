@@ -64,6 +64,7 @@ Feedback of working types is welcome.
 
 - https://github.com/RobTillaart/MCP23017_RT
 - https://github.com/RobTillaart/MCP23S17  (SPI)
+- https://github.com/RobTillaart/PCA9671
 - https://github.com/RobTillaart/PCF8575
 - https://github.com/RobTillaart/TCA9555
 
@@ -122,6 +123,10 @@ Check the datasheet for details
 - **TCA9554(uint8_t address, TwoWire \*wire = &Wire)** constructor, with default Wire interface. 
 Can be overruled with Wire0..WireN.
 - **TCA9534(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **PCA9554(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **PCA9534(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **CAT9554(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **CAT9534(uint8_t address, TwoWire \*wire = &Wire)** idem.
 - **uint8_t getType()** returns 34 or 54 depending on type.
 - **bool begin(uint8_t mode = INPUT, uint8_t mask = 0x00)** initializes library.
 Sets all the pins to INPUT (default) or to OUTPUT. 
