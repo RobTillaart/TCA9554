@@ -123,6 +123,10 @@ Check the datasheet for details
 - **TCA9554(uint8_t address, TwoWire \*wire = &Wire)** constructor, with default Wire interface. 
 Can be overruled with Wire0..WireN.
 - **TCA9534(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **PCA9554(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **PCA9534(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **CAT9554(uint8_t address, TwoWire \*wire = &Wire)** idem.
+- **CAT9534(uint8_t address, TwoWire \*wire = &Wire)** idem.
 - **uint8_t getType()** returns 34 or 54 depending on type.
 - **bool begin(uint8_t mode = INPUT, uint8_t mask = 0x00)** initializes library.
 Sets all the pins to INPUT (default) or to OUTPUT. 
@@ -172,17 +176,6 @@ Reading it will reset the flag to **TCA9554_OK**.
 |  TCA9554_VALUE_ERROR   |  0x83   |
 |  TCA9554_PORT_ERROR    |  0x84   |
 |  TCA9554_INVALID_READ  |  -100   |
-
-
-### Derived classes
-
-idem as above, to be verified.
-
-- **TCA9534(uint8_t address, TwoWire \*wire = &Wire)**
-- **PCA9554(uint8_t address, TwoWire \*wire = &Wire)**
-- **PCA9534(uint8_t address, TwoWire \*wire = &Wire)**
-- **CAT9554(uint8_t address, TwoWire \*wire = &Wire)**
-- **CAT9534(uint8_t address, TwoWire \*wire = &Wire)**
 
 
 ## Future

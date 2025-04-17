@@ -121,7 +121,5 @@ public:
 };
 
 
-CAT9554 / CAT9534
-
 //  -- END OF FILE --
 
